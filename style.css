@@ -78,6 +78,7 @@
             padding: 50px 24px;
             text-align: center;
             border-radius: 5px;
+            transition: 0.6s;
         }
     
         .single span {
@@ -90,6 +91,7 @@
             line-height: 60px;
             color: #fff;
             margin-bottom: 30px;
+            transition: 0.6s;
         }
     
         .single h3 {
@@ -98,6 +100,7 @@
             font-size: 22px;
             color: #fff;
             font-family: "Oswald", sans-serif;
+            transition: 0.6s;
         }
     
         .single p {
@@ -106,8 +109,28 @@
             color: rgba(255, 255, 255, 0.4);
             line-height: 1.8;
             font-weight: 400;
+            transition: 0.6s;
         }
+
+
+                .single:hover {
+                    background-color: white;
+                }
+        
+                .single:hover span {
+                    background-color: #ff1481;
+                }
+        
+                .single:hover h3 {
+                    color: #112e41;
+                }
+        
+                .single:hover p {
+                    color: #888888;
+                }
 }
+
+
 
 
 
