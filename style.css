@@ -68,6 +68,48 @@
 }
 
 
+
+.card-bg {
+    padding: 140px 0px;
+    background-color: #162b45;
+}
+
+.card-bg .single {
+    background-color: #2e4158;
+    padding: 50px 24px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.card-bg .single span {
+    background-color: #586779;
+    width: 61px;
+    height: 61px;
+    font-size: 22px;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 60px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.card-bg .single h3 {
+    font-weight: 600;
+    margin-bottom: 26px;
+    font-size: 22px;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+}
+
+.card-bg .single p{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+
 @media (max-width: 768px) {
 
 .banner {
