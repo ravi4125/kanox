@@ -127,7 +127,6 @@
 
 .about_part {
   position: relative;
-  padding: 170px 0px 80px;
 
   .about_img {
     background-image: url(Image/about_overlay.png.webp);
@@ -136,18 +135,18 @@
     position: relative;
     background-size: 100%;
     height: 549px;
-  }
 
-  .about_img .img_1 {
-    position: absolute;
-    left: 0;
-    top: 50px;
-  }
+    .img_1 {
+      position: absolute;
+      left: 0;
+      top: 50px;
+    }
 
-  .about_img .img_2 {
-    position: absolute;
-    right: -83px;
-    top: -50px;
+    .img_2 {
+      position: absolute;
+      right: -83px;
+      top: -50px;
+    }
   }
 
   .about_img h2 {
@@ -169,10 +168,6 @@
     left: -126px;
     top: -54px;
     z-index: -1;
-  }
-
-  .about_text {
-    padding-left: 63px;
   }
 
   .about_text h5 {
@@ -234,6 +229,218 @@
   }
 }
 
+.s_tittle p {
+  color: #ff1481;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 17px;
+  text-transform: uppercase;
+  line-height: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.s_tittle h2 {
+  font-size: 42px;
+  color: #112e41;
+  font-weight: 700;
+  position: relative;
+  font-family: "Oswald", sans-serif;
+}
+
+.s_tittle_work h5 {
+  color: #ff1481;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+  font-family: "Oswald", sans-serif;
+}
+
+.s_tittle_work h3 {
+  font-size: 30px;
+  line-height: 1.333;
+  margin-bottom: 30px;
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  color: #666666;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin-bottom: 0px;
+  color: #646464;
+  line-height: 1.8;
+}
+
+.btn_3 {
+  font-size: 14px;
+  color: #112e41;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+  padding-top: 32px;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.happy_client {
+  background-color: #162b45;
+
+  .client img {
+    width: 78px;
+    height: 58px;
+    display: block;
+    margin-bottom: 8px;
+    margin-left: -10px;
+  }
+
+  .client span {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    float: left;
+  }
+
+  .client h4 {
+    color: #fff;
+    font-size: 22px;
+    font-size: 500;
+    padding-left: 88px;
+    margin-top: 28px;
+    text-transform: uppercase;
+  }
+}
+
+.video {
+  background-image: url(Image/intro_bg.png.webp);
+  background-color: rgba(0, 0, 0, 0.493);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  position: relative;
+  width: 100%;
+}
+
+.video .play {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-sizing: content-box;
+  width: 80px;
+  height: 80px;
+  background-color: #ff1481;
+  border-radius: 50%;
+}
+
+.video p {
+  color: #fff;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+.video .video_icon {
+  display: inline-block;
+  margin-top: 270px;
+}
+
+.text p {
+  color: #ff1481;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.text h2 {
+  line-height: 1.2em;
+  font-size: 30px;
+  color: #112e41;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+}
+
+.member_section {
+  background-color: #162b45;
+
+  .team_member {
+    border: 1px solid #45556a;
+    padding: 20px;
+  }
+
+  .team_text h3 a {
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .team_text p {
+    color: #abb2ba;
+    font-size: 14px;
+  }
+
+  .social_icon a {
+    text-decoration: none;
+    color: #abb2ba;
+    margin: 0px 23px;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 1;
+  }
+  .social_icon a:after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    top: 8px;
+    right: -30px;
+    background-color: #45556a;
+    border-radius: 50%;
+  }
+}
+
+.home-blog .card {
+  border: 0px solid transparent;
+  border-radius: 0px;
+  background-color: transparent;
+  position: relative;
+
+  .card-body a {
+    color: #888888;
+    text-transform: uppercase;
+    padding-right: 5px;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  span {
+    color: #888888;
+  }
+
+  h5 {
+    color: black;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: "Oswald", sans-serif;
+  }
+  ul li {
+    display: inline-block;
+    list-style: none;
+    color: #8a8a8a;
+    margin-right: 30px;
+  }
+
+  .fa-solid {
+    color: #ff1481;
+    margin-right: 5px;
+  }
+}
+
 @media (max-width: 768px) {
   .banner {
     background-color: bisque;
@@ -244,5 +451,21 @@
 
   .banner::after {
     display: none;
+  }
+
+  .img_2,
+  .hero-app-7,
+  .hero-app-8,
+  .hero-app-9,
+  .about_img h2 {
+    display: none;
+  }
+
+  .about_img {
+    background-image: none;
+  }
+
+  .img_1 {
+    width: 100%;
   }
 }
