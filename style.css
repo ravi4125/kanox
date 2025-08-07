@@ -441,6 +441,48 @@ p {
   }
 }
 
+.footer {
+  background-color: #162b45;
+
+  .s-footer p {
+    color: #abb2ba;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  .s-footer h4 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .social_icon a {
+    color: #cccccc;
+    font-size: 14px;
+    margin-right: 20px;
+  }
+
+  h4 {
+    margin-bottom: 23px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .copyright_text {
+    border-top: 1px solid #45556a;
+    padding-top: 20px;
+}
+
+  .colorlib {
+    text-decoration: none;
+    color: #ff1481;
+  }
+}
+
+
 @media (max-width: 768px) {
   .banner {
     background-color: bisque;
